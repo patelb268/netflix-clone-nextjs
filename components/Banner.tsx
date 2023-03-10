@@ -4,7 +4,7 @@ import { baseUrl } from '../constants/movie'
 import { Movie } from '../typings'
 import { FaPlay } from 'react-icons/fa'
 import { InformationCircleIcon } from '@heroicons/react/24/outline'
-import { useRecoilState } from 'recoil'
+import { useRecoilState } from 'recoil';
 import { modalState, movieState } from '../atoms/modalAtom'
 
 interface Props {

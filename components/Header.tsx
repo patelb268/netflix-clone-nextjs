@@ -51,7 +51,9 @@ function Header() {
         {/* <Link href="/account"> */}
         <Image
           onClick={logout}
-          src="/avatar"
+          src="/avatar.png"
+          width={40}
+          height={40}
           alt=""
           className="cursor-pointer rounded"
         />
